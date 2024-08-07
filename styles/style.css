@@ -334,15 +334,14 @@ body {
 
 /* Estilos para efeito de scroll reveal */
 .sectionForm, .containerSlider {
-    opacity: 0; /* Começa invisível */
-    transform: translateY(30px); /* Começa deslocado */
-    transition: opacity 0.9s ease-out, transform 0.9s ease-out; /* Transição suave */
+    opacity: 0; 
+    transform: translateY(30px); 
+    transition: opacity 0.9s ease-out, transform 0.9s ease-out; 
 }
 
-/* Quando a seção está visível */
 .sectionForm.visible, .containerSlider.visible {
-    opacity: 1; /* Torna visível */
-    transform: translateY(0); /* Move para a posição original */
+    opacity: 1; 
+    transform: translateY(0); 
 }
 
 
